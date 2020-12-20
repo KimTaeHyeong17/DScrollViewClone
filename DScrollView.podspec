@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 'DScrollView is an awsome pod aim to make your life easier around UIScrollViews'
                        DESC
 
-  s.homepage         = 'https://github.com/TaeHyeong Kim/DScrollView'
+  s.homepage         = 'https://github.com/KimTaeHyeong17/DScrollViewClone'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TaeHyeong Kim' => 'uuzaza@naver.com' }
-  s.source           = { :git => 'https://github.com/TaeHyeong Kim/DScrollView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KimTaeHyeong17/DScrollViewClone.git', :tag => s.version.to_s }
    s.social_media_url = 'https://haningya.tistory.com'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'DScrollView/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      "ios" : "12.0"
+      "ios": "12.0"
   }
   s.dependency 'TinyConstraints', '~> 4.0.0'
   
