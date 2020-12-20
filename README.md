@@ -22,7 +22,7 @@ pod 'DScrollView'
 
 ## Author
 
-TaeHyeong Kim, taehyeong.kim96@navercorp.com
+uuzaza@naver.com
 
 ## License
 
