@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		625F48AB7D62857A21A6740E /* Pods-DScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DScrollView_Tests/Pods-DScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BE6FC408CAA236D7B1F865C /* Pods_DScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73F046742F00153D62E34744 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		756F7F2CC06206D5E37E6F24 /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; };
-		775FABE1688DF95B2D72E8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73F046742F00153D62E34744 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		756F7F2CC06206D5E37E6F24 /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		775FABE1688DF95B2D72E8FC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8597463AFCD51198A5824812 /* Pods_DScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				625F48AB7D62857A21A6740E /* Pods-DScrollView_Tests.debug.xcconfig */,
 				2C54A0F14522DDA7C4090753 /* Pods-DScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
